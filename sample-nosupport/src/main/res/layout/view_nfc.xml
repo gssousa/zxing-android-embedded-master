@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:background="#f2efef">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:background="#004B35"
+        android:contentDescription="soslink"
+        android:src="@drawable/soslink_logo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:autoLink="email|web"
+        android:text="@string/checkpoint_view"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:textSize="18sp"
+        android:id="@+id/textView" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nfc_tag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:autoLink="email|web"
+                android:gravity="left"
+                android:padding="4dp"
+                android:text="@string/read_checkpoint"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#004B35"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/nfcimage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity="left"
+                android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/nfcdata"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+                android:autoLink="email|web"
+                android:gravity="left"
+            android:padding="4dp"
+                android:text="@string/checkpoint_location"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#004B35"
+            android:textSize="14sp"/>
+
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#004B35"
+            android:text="@string/back_btn"
+            android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- Link to Login Screen -->
+
+
+
+</LinearLayout>

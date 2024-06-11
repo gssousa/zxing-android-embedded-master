@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_php">http://www.connect.com.pt/retail/android/checkin_v2/login_nfc_app.php</string>
+    <string name="get_sites_php">http://www.connect.com.pt/retail/android/checkin_v2/get_sites.php</string>
+    <string name="patrols_php">http://www.connect.com.pt/retail/android/checkin_v2/get_patrol_tours.php</string>
+    <string name="tourtags_php">http://www.connect.com.pt/retail/android/checkin_v2/get_tour_tags.php</string>
+    <string name="nfcread_php">http://www.connect.com.pt/retail/android/checkin_v2/create_nfc_reading.php</string>
+    <string name="nfcregister_php">http://www.connect.com.pt/retail/android/checkin_v2/register_nfc_tag.php</string>
+    <string name="nfcview_php">http://www.connect.com.pt/retail/android/checkin_v2/view_nfc_tag.php</string>
+    <string name="ocorrencias_portal">https://www.connect.com.pt/retail/android/checkin_v2/login_portal.php</string>
+    <string name="patrol_finish_php">http://www.connect.com.pt/retail/android/checkin_v2/patrol_finish.php</string>
+    <string name="patrol_start_php">http://www.connect.com.pt/retail/android/checkin_v2/patrol_start.php</string>
+    <string name="inspect">https://www.connect.com.pt/retail/android/checkin_v2/inspect.php</string>
+    <string name="checkoutdocs">https://www.connect.com.pt/retail/novo_worklog_android.php</string>
+
+    <string name="app_name">NFC checkin v3.0</string>
+    <string name="intro_message">Aproxime NFC/QR para leitura</string>
+    <string name="tour_message">Escolha a ronda a iniciar.</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">Leitor NFC não disponível no seu dispositivo.</string>
+    <string name="nfc_disabled">NFC não está activo. Por favor ative nas definições do seu dispositivo.</string>
+    <string name="menu_main_clear_title">Limpar leituras</string>
+    <string name="tag_success">Ponto NFC/QR lido com sucesso!</string>
+    <string name="no_internet">SOSlink sem acesso à Internet. Verifique a ligação do seu dispositivo.</string>
+    <string name="no_internet_login">Sem conetividade para efetuar Login.</string>
+    <string name="miss_login_field">Introduzir utilizador e senha.</string>
+    <string name="load_sites_login">A carregar sites. Por favor, aguarde...</string>
+
+    <string name="footer_1">Acesso no site: </string>
+    <string name="footer_2">2021 SOSlink® Todos os direitos reservados.</string>
+
+    <string name="button_1">&#xf02a;\nLer QR</string>
+    <string name="button_2">&#xf1eb;\nLer NFC</string>
+    <string name="button_31">&#xf090; Checkin</string>
+    <string name="button_32">&#xf08b; Checkout</string>
+    <string name="button_33">&#xf002; Consultar</string>
+    <string name="button_4">&#xf04d; Terminar\nRonda</string>
+    <string name="button_5">&#xf015; Portal\nOcorrências</string>
+    <string name="button_6">&#xf08b;\nLogout</string>
+    <string name="button_7">&#xf276;\nSeguinte</string>
+    <string name="button_8">&#xf002;\nConsultar</string>
+    <string name="button_9">&#xf04b; Continuar\nRonda</string>
+    <string name="button_10">&#xf0e2; \nVoltar</string>
+    <string name="button_10s">&#xf0e2; Voltar</string>
+    <string name="button_11">OK</string>
+    <string name="button_12">Não\n</string>
+    <string name="button_13">Registar\nSem Ronda</string>
+    <string name="button_14">&#xf276; Registar</string>
+    <string name="button_15">&#xf046;\nInspecionar</string>
+    <string name="button_login">Login</string>
+    <string name="button_logout">&#xf08b; Logout</string>
+    <string name="turn_on_flashlight">Ligar luz/flash</string>
+    <string name="turn_off_flashlight">Desligar luz/flash</string>
+    <string name="no_sites_found">Sites nao encontrados.</string>
+    <string name="login_success_user">Login de utilizador com sucesso.</string>
+    <string name="login_success_admin">Login de Administrador com sucesso.</string>
+    <string name="login_invalid">Login inválido, verifique utilizador e senha.</string>
+
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="portal_name">Portal Ocorrências</string>
+    <string name="logout_confirmation">Confirma Logout?</string>
+    <string name="back_login_screen">Volta ao menu Login.</string>
+    <string name="no_internet_portal">Sem conetividade para abrir o Portal.</string>
+    <string name="need_tag_read">Necessário ler NFC/QR antes de registar.</string>
+    <string name="no_net_tag_details">Sem conetividade para consultar detalhes.</string>
+    <string name="no_logout_net">Sem conetividade para efetuar Logout.</string>
+    <string name="logout_done">Logout efetuado.</string>
+    <string name="reading_error">Erro de leitura.\nRepita por favor.</string>
+    <string name="checkpoint_success">Leitura com sucesso.</string>
+    <string name="no_send_tag_net">Sem conetividade para enviar picagem.</string>
+    <string name="tag_not_from_patrol">Esta picagem não pertence a esta Ronda.</string>
+    <string name="tag_qr_read">Código lido: </string>
+    <string name="prompt_reading">Introduzir leitura</string>
+    <string name="new_incident">Nova ocorrência</string>
+    <string name="tag_register_fail">Falha a registar picagem.</string>
+    <string name="tag_not_found">NFC tag não encontrado.</string>
+    <string name="tag_not_allocated">Utilizador não associado a este Cartão NFC.</string>
+    <string name="tag_checkin_success">NFC tag Checkin com sucesso</string>
+    <string name="tag_checkout_success">NFC tag Checkout com sucesso</string>
+    <string name="tag_due_date">NFC tag fora de Validade</string>
+    <string name="no_imei">IMEI de Equipamento não encontrado</string>
+    <string name="allocated_imei">IMEI de Equipamento não alocado a este Utilizador</string>
+
+    <string name="read_checkpoint">ID NFC: </string>
+    <string name="no_tag_registered">Ponto não registado.</string>
+    <string name="tag_registration_success">Ponto registado com sucesso.</string>
+    <string name="tag_read_fail">Falha na leitura.</string>
+    <string name="tag_registration_prompt_desc">Introduza descrição de leitura.</string>
+    <string name="no_registration_tag_net">Sem conetividade para Registar Ponto.</string>
+    <string name="tag_data_fail">Registe localização do Ponto.</string>
+    <string name="not_numeric">Leitura não corresponde a um ID (número identificador).</string>
+
+    <string name="qr_ui_desc">Direcione a etiqueta conforme a linha azul.</string>
+    <string name="login_ui_user">Utilizador</string>
+    <string name="login_ui_pass">Senha</string>
+    <string name="login_ui_site">Escolha edíficio para Login:</string>
+    <string name="running_patrol">Ronda em curso...</string>
+    <string name="back_btn">Voltar</string>
+
+    <string name="checkpoint_registration_desc">Detalhes do ponto a registar:</string>
+    <string name="checkpoint_registration_location">Localização do ponto a registar</string>
+    <string name="checkpoint_registration_detail">Detalhes do ponto</string>
+    <string name="checkpoint_registration_prompt">Ponto de leitura?</string>
+    <string name="checkpoint_registration_prompt_desc">Introduza descrição de leitura</string>
+    <string name="checkpoint_registration_tour">Click Ronda para o Ponto:</string>
+    <string name="checkpoint_location">Detalhes</string>
+    <string name="checkpoint_details">Detalhes</string>
+    <string name="checkpoint_view">Detalhes do NFC:</string>
+
+
+</resources>
