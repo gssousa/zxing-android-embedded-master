@@ -1,3 +1,5 @@
-include ':zxing-android-embedded'
+//include ':zxing-android-embedded'
 //include ':sample'
-include ':myapplication'
+include ':sample-nosupport'
+
+

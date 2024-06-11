@@ -1,27 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        jcenter()
-        mavenCentral()
         google()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.4.2'
-        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.0'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
+        // Ensure this matches your Android Studio version
     }
 }
 
-subprojects {
+allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
+}
 
-    version = '3.2.0'
-    group = 'com.journeyapps'
+apply plugin: 'com.android.application'
 
-    ext.androidBuildTools = '23.0.2'
-    ext.androidTargetSdk = 23
-    ext.zxingCore = 'com.google.zxing:core:3.2.1'
+android {
+    namespace "checkin.zxing"
+
+    //noinspection GradleDependency
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "com.example.myapp"
+        minSdk 28
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude("META-INF/DEPENDENCIES")
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-appindexing:20.0.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
+    implementation 'com.google.guava:guava:33.2.1-android'
 }

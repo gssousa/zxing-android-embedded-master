@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_php">http://www.connect.com.pt/retail/android/checkin_v2/login_nfc_app.php</string>
+    <string name="get_sites_php">http://www.connect.com.pt/retail/android/checkin_v2/get_sites.php</string>
+    <string name="patrols_php">http://www.connect.com.pt/retail/android/checkin_v2/get_patrol_tours.php</string>
+    <string name="tourtags_php">http://www.connect.com.pt/retail/android/checkin_v2/get_tour_tags.php</string>
+    <string name="nfcread_php">http://www.connect.com.pt/retail/android/checkin_v2/create_nfc_reading.php</string>
+    <string name="nfcregister_php">http://www.connect.com.pt/retail/android/checkin_v2/register_nfc_tag.php</string>
+    <string name="nfcview_php">http://www.connect.com.pt/retail/android/checkin_v2/view_nfc_tag.php</string>
+    <string name="ocorrencias_portal">https://www.connect.com.pt/retail/android/checkin_v2/login_portal.php</string>
+    <string name="patrol_finish_php">http://www.connect.com.pt/retail/android/checkin_v2/patrol_finish.php</string>
+    <string name="patrol_start_php">http://www.connect.com.pt/retail/android/checkin_v2/patrol_start.php</string>
+    <string name="inspect">https://www.connect.com.pt/retail/android/checkin_v2/inspect.php</string>
+    <string name="checkoutdocs">https://www.connect.com.pt/retail/novo_worklog_android.php</string>
+
+    <string name="app_name">NFC checkin v3.0</string>
+    <string name="intro_message">Aproach NFC to read tag</string>
+    <string name="tour_message">Select patrol to start.</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">This device doesnt have NFC reader.</string>
+    <string name="nfc_disabled">NFC disabled.\nPlease enable it on device settings.</string>
+    <string name="menu_main_clear_title">Clean readings</string>
+    <string name="tag_success">NFC / QR successfully read!</string>
+    <string name="no_internet">SOSlink without Network.\nCheck your device Internet connection.</string>
+    <string name="no_internet_login">Without connectivity to perform Login.\nCheck your device Internet connection.</string>
+    <string name="miss_login_field">Please, fill both username and password.</string>
+    <string name="load_sites_login">Loading sites. Please wait...</string>
+
+    <string name="footer_1">Logon site: </string>
+    <string name="footer_2">2021 SOSlink® All rights reserved.</string>
+
+    <string name="button_1">&#xf02a;\nRead QR</string>
+    <string name="button_2">&#xf1eb;\nRead NFC</string>
+    <string name="button_31">&#xf090; Checkin</string>
+    <string name="button_32">&#xf08b; Checkout</string>
+    <string name="button_33">&#xf002; View</string>
+    <string name="button_4">&#xf04d; Finish\nPatrol</string>
+    <string name="button_5">&#xf015; Incidents\nWeb portal</string>
+    <string name="button_6">&#xf08b;\nLogout</string>
+    <string name="button_7">&#xf276;\nNext</string>
+    <string name="button_8">&#xf002;\nDetails</string>
+    <string name="button_9">&#xf04b; Resume\nPatrol</string>
+    <string name="button_10">&#xf0e2; \nBack</string>
+    <string name="button_10s">&#xf0e2; Back</string>
+    <string name="button_11">OK</string>
+    <string name="button_12">No\n</string>
+    <string name="button_13">Register\nNo tour</string>
+    <string name="button_14">&#xf276; Register</string>
+    <string name="button_15">&#xf046;\nInspect</string>
+    <string name="button_login">Login</string>
+    <string name="button_logout">&#xf08b; Logout</string>
+    <string name="turn_on_flashlight">Turn on light/flash</string>
+    <string name="turn_off_flashlight">Turn off light/flash</string>
+    <string name="no_sites_found">No sites found.</string>
+    <string name="login_success_user">User login successfully.</string>
+    <string name="login_success_admin">Administrator login successfully.</string>
+    <string name="login_invalid">Invalid Login. Please check username and password.</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="portal_name">Incidents Web portal</string>
+    <string name="logout_confirmation">Proceed with Logout?</string>
+    <string name="back_login_screen">Back to Login screen.</string>
+    <string name="no_internet_portal">No Internet connection to open web Portal.</string>
+    <string name="need_tag_read">Need to read checkpoint before registration.</string>
+    <string name="no_net_tag_details">No connection to view checkpoint details.</string>
+    <string name="no_logout_net">No connection to proceed with Logout.</string>
+    <string name="logout_done">Logout done.</string>
+    <string name="reading_error">Reading error.\nRepeat please.</string>
+    <string name="checkpoint_success">Reading success.</string>
+    <string name="no_send_tag_net">No connection to send reading.</string>
+    <string name="tag_not_from_patrol">Checkpoint doesnt belong to this tour.</string>
+    <string name="tag_qr_read">Checkpoint reading: </string>
+    <string name="prompt_reading">Insert reading</string>
+    <string name="new_incident">New incident</string>
+    <string name="tag_register_fail">Fail to registrate checkpoint.</string>
+    <string name="tag_not_found">NFC tag not found.</string>
+    <string name="tag_not_allocated">User not allocated to this NFC Card.</string>
+    <string name="tag_checkin_success">NFC tag Checkin success</string>
+    <string name="tag_checkout_success">NFC tag Checkout success</string>
+    <string name="tag_due_date">NFC tag due date expired</string>
+    <string name="no_imei">IMEI not found</string>
+    <string name="allocated_imei">IMEI not allocated to this user</string>
+
+    <string name="read_checkpoint">ID NFC: </string>
+    <string name="no_tag_registered">Checkpoint not registered.</string>
+    <string name="tag_registration_success">Checkpoint registered successfully.</string>
+    <string name="tag_read_fail">Checkpoint reading error.</string>
+    <string name="tag_registration_prompt_desc">Checkpoint reading description.</string>
+    <string name="no_registration_tag_net">No connection to checkpoint registration.</string>
+    <string name="tag_data_fail">Fill checkpoint location.</string>
+    <string name="not_numeric">Read tag isnt numeric ID.</string>
+
+    <string name="qr_ui_desc">Center barcode on blue line.</string>
+    <string name="login_ui_user">Username</string>
+    <string name="login_ui_pass">Password</string>
+    <string name="login_ui_site">Select site to Login:</string>
+    <string name="running_patrol">Running patrol...</string>
+    <string name="back_btn">Back</string>
+    <string name="checkpoint_registration_desc">Checkpoint details to register:</string>
+    <string name="checkpoint_registration_location">Checkpoint location</string>
+    <string name="checkpoint_registration_detail">Checkpoint location details</string>
+    <string name="checkpoint_registration_prompt">Checkpoint prompt reading?</string>
+    <string name="checkpoint_registration_prompt_desc">Reading hint</string>
+    <string name="checkpoint_registration_tour">Click on checkpoint tour:</string>
+    <string name="checkpoint_location">Details</string>
+    <string name="checkpoint_details">Details</string>
+    <string name="checkpoint_view">NFC Details:</string>
+
+
+</resources>
